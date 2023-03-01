@@ -1,6 +1,6 @@
 import time
 
-water_goal = int(input("how much water would you like to drink?"))
+water_goal = int(input("how many ounces of water would you like to drink?"))
 time_limit = int(input("In how many minutes?"))
 water_bottle = int(input("how many oz does your water bottle hold?"))
 last_water = int(input("How many ounces of water do you have now?"))
