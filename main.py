@@ -13,7 +13,7 @@ water_consumed = 0
 while (time.time() - start_time)/num_sec < time_limit and water_consumed < water_goal:
     if time.time() > last_check + 5:
         try:
-            new_water = int(input("How many ounces now?"))
+            new_water = int(input("How many ounces do you have now? "))
         except ValueError:
             print("invalid value")
             continue
