@@ -37,7 +37,7 @@ while (time.time() - start_time)/num_sec < time_limit and water_consumed < water
 if ((time.time() - start_time)/num_sec >= time_limit):
     print("Time's up.")
 print ("You have consumed %i oz of water." % water_consumed)
-if water_consumed>water_goal:
+if water_consumed>=water_goal:
     print("You met your goal of %i oz." % water_goal)
 else:
     print("You missed your goal of %i oz" % water_goal)
