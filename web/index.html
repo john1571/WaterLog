@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta name="description" content="Water Log App"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta content-type='text/html; charset=utf-8' http-equiv='Content-Type'/>
+        <link rel='stylesheet' href='style.css'>
+        <title>Water Log</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="app">
+                <p>Assumptions:</p>
+                <p>24 oz water bottle, filled at the beginning</p>
+                <p>75 oz goal between 8 am and 5 pm</p>
+                <div class="time"></div>
+                <div class="progress"></div>
+                <form id="Log">
+                    <input type="Number" placeholder="How many ounces in water bottle now..."/>
+                    <button type="submit">&plus;</button>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="waterlog.js"></script>
+        <script>
+            setInterval(updateClock, 1000);
+        </script>
+    </body>
+</html>
