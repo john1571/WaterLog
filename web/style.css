@@ -36,14 +36,12 @@
 .app form input {
     border: none;
     font-size: 18px;
-    color: white;
     padding: 10px;
     width: 90%;
 }
 
 .app form button {
     border: none;
-    color: white;
     background-color: #1dd2af;
     font-size: 25px;
     font-weight: 600;
@@ -66,7 +64,6 @@
     height: 0.8em;
     cursor: pointer;
     border-radius: 50%;
-    background-color: white;
     border: 1px solid rgb(255, 255, 255);
     -webkit-appearance: none;
 }
